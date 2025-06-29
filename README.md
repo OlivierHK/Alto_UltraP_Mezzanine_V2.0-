@@ -11,6 +11,7 @@ Updated Mezzanine card V2.0 for Alto_UltraP Board, for Xilinx Ultrascale+ VU9p/V
 - SPI interface added for direct backboard Arduino controller FPGA bitstream writing.
 - Sysmon read ADC VauxP/N added for MGTAVCC, MGTVCCAUX, MGTAVTT. 
 - Mechanical holes added for watercooling block on FPGA and VRM.
+- C-cap for CSD updated to X7R for better thermal resistance and void space increased to install wider cooler plate. 
 - Soldermask's color changed to Blue. Logo and information added on Silkscreen.
 
 ## Gerber Files
