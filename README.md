@@ -3,6 +3,11 @@ Updated Mezzanine card V2.0 for Alto_UltraP Board, for Xilinx Ultrascale+ VU9p/V
 
 ![Mezzanine_V2 0](https://github.com/user-attachments/assets/6f760b17-e291-44ea-aef2-f8fb70d67586)
 
+## Functionnal Diagram
+
+![Functionnal diagram](https://github.com/user-attachments/assets/de3472aa-66f2-4ac5-90fc-c60a2c354b5f)
+
+
 ## Log
 - Full compatible with V1.0 Mezzanine, and V1.0 Backplane.
 - x2 64-Pins Connan connectors added for better current distribution, and increase signals pins.
