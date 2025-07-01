@@ -19,5 +19,8 @@ Updated Mezzanine card V2.0 for Alto_UltraP Board, for Xilinx Ultrascale+ VU9p/V
 - C-cap for CSD updated to X7R for better thermal resistance and void space increased to install wider cooler plate. 
 - Soldermask's color changed to Blue. Logo and information added on Silkscreen.
 
-## Gerber Files
-Please contact [olivier.faurie.hk@gmail.com](olivier.faurie.hk@gmail.com) for Gerber files.
+## Design Files
+
+Gerber Files and BOM available in the [PCB](https://github.com/OlivierHK/Alto_UltraP_Mezzanine_V2.0/tree/main/PCB) folder.
+
+For Kicad Project, Please contact [olivier.faurie.hk@gmail.com](olivier.faurie.hk@gmail.com).
