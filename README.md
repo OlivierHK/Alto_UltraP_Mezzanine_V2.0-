@@ -20,7 +20,7 @@ This project is the sole work of the author, developed during his free time, usi
 
 Schematic's comments should cover all the specifications of the Mezzanine card. 
 
-So High level functionnal Diagram:
+So the High level functionnal Diagram:
 
 ![Functionnal diagram](https://github.com/user-attachments/assets/de3472aa-66f2-4ac5-90fc-c60a2c354b5f)
 
@@ -66,19 +66,19 @@ J1
 ```
 ## Firmwares
 
-Firmwares installation/update can only be done if mezzanine plugged on an Alto system BackPlane. Procedure can be find on the AltoP platform Firmwares' [Folder](https://github.com/OlivierHK/Alto_UltraP_Board_V1.0/tree/main/Firmwares). There is two:
+Firmwares installation/update can only be done if mezzanine plugged on an Alto system BackPlane. Procedure and files can be find on the AltoP platform Firmwares' [Folder](https://github.com/OlivierHK/Alto_UltraP_Board_V1.0/tree/main/Firmwares). There is two:
 
 - Power Controller TPS53681 6+2 Phases for the VCCINT, VCCIO_BRAM of the FPGA:
   - Via PMBUS and TI PMBUS dongle plugged to the backplane.
   - Via PMBUS and Arduino, using [AltoP_SysCtrlMon](https://github.com/OlivierHK/AltoP_SysCtrlMon) tool. 
 - FPGA Bitstream:
-  - Via AMD JTAG Programing Dongle plugged on the JTAG port of the BackPlane for flashing FPGA or writing QSPI FLash memory
-  - Via USB cable and embedded JTAG programming cable for flashing FPGA or writing QSPI FLash memory.
+  - Via AMD JTAG Programing Dongle plugged on the JTAG port of the BackPlane for flashing FPGA or writing QSPI FLash memory.
+  - Via the USB cable and the embedded JTAG programming cable for flashing FPGA or writing QSPI FLash memory.
   - New interface (to be implemented on the backplane V2.0) to write the QSPI Flash memory via the Arduino.
 
 ## Product Delivery
 
-The board has been valided already and working full time since Early 2025:
+The board has been valided already and working full time @300W since Early 2025:
 ![Mezzanine_V2 0](https://github.com/user-attachments/assets/6f760b17-e291-44ea-aef2-f8fb70d67586)
 
 ## Design Files
