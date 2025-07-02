@@ -2,6 +2,8 @@
 Updated Mezzanine card V2.0 for Alto_UltraP Board.
 Fitting Xilinx Ultrascale+ VU9p/VU13p, FLGA2104 Package. 
 
+This project is the sole work of the author, developed during his free time, using his personal computer and with his personnal money. ^^
+
 ## Log
 - Full compatible with V1.0 Mezzanine, and V1.0 Backplane.
 - x2 64-Pins Connan connectors added for better current distribution, and increase signals pins.
@@ -16,7 +18,10 @@ Fitting Xilinx Ultrascale+ VU9p/VU13p, FLGA2104 Package.
 
 ## Functionnal Diagram
 
-The schematic's comment should cover all the specifications of the Board. With the functionnal Diagram:
+Schematic's comments should cover all the specifications of the Mezzanine card. 
+
+So High level functionnal Diagram:
+
 ![Functionnal diagram](https://github.com/user-attachments/assets/de3472aa-66f2-4ac5-90fc-c60a2c354b5f)
 
 For the detailed Specification document, please contact the Author at  [olivier.faurie.hk@gmail.com](olivier.faurie.hk@gmail.com).
@@ -27,7 +32,7 @@ For the detailed Specification document, please contact the Author at  [olivier.
 ![Power_Connectors_pinout](https://github.com/user-attachments/assets/4e53e351-56f5-4b88-be38-f49f8134b5ce)
 
 
-### Bottom connectors (Signals & Hi-SPeed interface):
+### Bottom connectors (Signals & Hi-Speed interface):
 ![Signals_Connectors_pinout](https://github.com/user-attachments/assets/aba93dd3-d2cf-459c-aa6f-54e08342bde9)
 
 ### Debug port (not populated):
@@ -71,7 +76,7 @@ Firmwares installation/update can only be done if mezzanine plugged on an Alto s
   - Via USB cable and embedded JTAG programming cable for flashing FPGA or writing QSPI FLash memory.
   - New interface (to be implemented on the backplane V2.0) to write the QSPI Flash memory via the Arduino.
 
-## Delivery
+## Product Delivery
 
 The board has been valided already and working full time since Early 2025:
 ![Mezzanine_V2 0](https://github.com/user-attachments/assets/6f760b17-e291-44ea-aef2-f8fb70d67586)
