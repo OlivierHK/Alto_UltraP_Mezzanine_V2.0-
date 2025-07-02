@@ -1,5 +1,6 @@
 # Alto_UltraP_Mezzanine_V2.0
-Updated Mezzanine card V2.0 for Alto_UltraP Board, for Xilinx Ultrascale+ VU9p/VU13p. 
+Updated Mezzanine card V2.0 for Alto_UltraP Board.
+Fitting Xilinx Ultrascale+ VU9p/VU13p, FLGA2104 Package. 
 
 ## Log
 - Full compatible with V1.0 Mezzanine, and V1.0 Backplane.
@@ -12,11 +13,13 @@ Updated Mezzanine card V2.0 for Alto_UltraP Board, for Xilinx Ultrascale+ VU9p/V
 - C-cap for CSD updated to X7R for better thermal resistance and void space increased to install wider cooler plate. 
 - Soldermask's color changed to Blue. Logo and information added on Silkscreen.
 
-![Mezzanine_V2 0](https://github.com/user-attachments/assets/6f760b17-e291-44ea-aef2-f8fb70d67586)
 
 ## Functionnal Diagram
 
+The schematic's comment should cover all the specifications of the Board. With the functionnal Diagram:
 ![Functionnal diagram](https://github.com/user-attachments/assets/de3472aa-66f2-4ac5-90fc-c60a2c354b5f)
+
+For the detailed Specification document, please contact the Author at  [olivier.faurie.hk@gmail.com](olivier.faurie.hk@gmail.com).
 
 ## Connectors Pinout
 
@@ -68,8 +71,13 @@ Firmwares installation/update can only be done if mezzanine plugged on an Alto s
   - Via USB cable and embedded JTAG programming cable for flashing FPGA or writing QSPI FLash memory.
   - New interface (to be implemented on the backplane V2.0) to write the QSPI Flash memory via the Arduino.
 
+## Delivery
+
+The board has been valided already and working full time since Early 2025:
+![Mezzanine_V2 0](https://github.com/user-attachments/assets/6f760b17-e291-44ea-aef2-f8fb70d67586)
+
 ## Design Files
 
 Gerber Files and BOM available in the [PCB](https://github.com/OlivierHK/Alto_UltraP_Mezzanine_V2.0/tree/main/PCB) folder.
 
-For Kicad Project, Please contact [olivier.faurie.hk@gmail.com](olivier.faurie.hk@gmail.com).
+For Kicad Project files, Please contact [olivier.faurie.hk@gmail.com](olivier.faurie.hk@gmail.com).
