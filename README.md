@@ -27,6 +27,46 @@ Updated Mezzanine card V2.0 for Alto_UltraP Board, for Xilinx Ultrascale+ VU9p/V
 ### Bottom connectors (Signals & Hi-SPeed interface):
 ![Signals_Connectors_pinout](https://github.com/user-attachments/assets/aba93dd3-d2cf-459c-aa6f-54e08342bde9)
 
+### Debug port (not populated):
+Directly connected to FPGA, on +1.8V bank:
+```
+J1
+
+  Pin1  - Q0
+  Pin2  - Q1
+  Pin3  - Q2
+  Pin4  - Q3
+  Pin5  - Q4
+  Pin6  - Q5
+  Pin7  - Q6
+  Pin8  - Q7
+  Pin9  - +1.8V
+  Pin10 - GND
+```
+
+## LEDs Block
++3.3V LEDs driven directly by FPGA's IOs on +1.8V Bank, via a Mosfet. Active-Low.
+```
+  D44 - Debug_LED0 (TP56).
+  D54 - Debug_LED1 (TP57).
+  D46 - Debug_LED2 (TP58).
+  D47 - Debug_LED3 (TP59).
+  D48 - Debug_LED4 (TP67).
+  D49 - Debug_LED5 (TP68).
+  D50 - Debug_LED6 (TP69).
+  D51 - Debug_LED7 (TP70).
+```
+## Firmwares
+
+Firmwares installation/update can only be done if mezzanine plugged on an Alto system BackPlane. Procedure can be find on the AltoP platform Firmwares' [Folder](https://github.com/OlivierHK/Alto_UltraP_Board_V1.0/tree/main/Firmwares). There is two:
+
+- Power Controller TPS53681 6+2 Phases for the VCCINT, VCCIO_BRAM of the FPGA:
+  - Via PMBUS and TI PMBUS dongle plugged to the backplane.
+  - Via PMBUS and Arduino, using [AltoP_SysCtrlMon](https://github.com/OlivierHK/AltoP_SysCtrlMon) tool. 
+- FPGA Bitstream:
+  - Via AMD JTAG Programing Dongle plugged on the JTAG port of the BackPlane for flashing FPGA or writing QSPI FLash memory
+  - Via USB cable and embedded JTAG programming cable for flashing FPGA or writing QSPI FLash memory.
+  - New interface (to be implemented on the backplane V2.0) to write the QSPI Flash memory via the Arduino.
 
 ## Design Files
 
